@@ -1,0 +1,60 @@
+{
+  "_fixture": "Ответ GET https://www.mvideo.ru/bff/products/prices?productIds=402234028,401002749,400679051&isPromoApplied=true&addBonusRubles=true от 2026-10-23, скопирован без изменений.",
+  "success": true,
+  "messages": [],
+  "body": {
+    "materialPrices": [
+      {
+        "productId": "402234028",
+        "price": {
+          "productId": "402234028",
+          "basePrice": 149999,
+          "salePrice": 109999,
+          "basePromoPrice": 109999,
+          "discounts": [{"type": "PRICE", "promoId": "5000103718", "promoName": "Скидка по акции", "discount": 40000}],
+          "applyPersonalPrice": false,
+          "isFinalPrice": false,
+          "isSpasiboApplicable": false,
+          "isSpasiboAvailability": false
+        },
+        "bonusRubles": {"productId": "402234028", "total": 5500, "breakdown": [{"promoName": "по программе M.Club", "bonusType": "490001", "total": 5500}]}
+      },
+      {
+        "productId": "401002749",
+        "price": {
+          "productId": "401002749",
+          "basePrice": 65000,
+          "salePrice": 38164,
+          "basePromoPrice": 38164,
+          "discounts": [
+            {"type": "PRICE", "promoId": "5000328928", "promoName": "Скидка по акции", "discount": 26057},
+            {"type": "YOUR_PRICE", "promoId": "5200000010", "promoName": "Твоя скидка", "discount": 779}
+          ],
+          "applyPersonalPrice": false,
+          "isFinalPrice": false,
+          "isSpasiboApplicable": false,
+          "isSpasiboAvailability": false
+        },
+        "bonusRubles": {"productId": "401002749", "total": 1908, "breakdown": [{"promoName": "по программе M.Club", "bonusType": "490001", "total": 1908}]}
+      },
+      {
+        "productId": "400679051",
+        "price": {
+          "productId": "400679051",
+          "basePrice": 190734,
+          "salePrice": 122072,
+          "basePromoPrice": 122072,
+          "discounts": [
+            {"type": "PRICE", "promoId": "5000328928", "promoName": "Скидка по акции", "discount": 66170},
+            {"type": "YOUR_PRICE", "promoId": "5200000017", "promoName": "Твоя скидка", "discount": 2492}
+          ],
+          "applyPersonalPrice": false,
+          "isFinalPrice": false,
+          "isSpasiboApplicable": false,
+          "isSpasiboAvailability": false
+        },
+        "bonusRubles": {"productId": "400679051", "total": 6104, "breakdown": [{"promoName": "по программе M.Club", "bonusType": "490001", "total": 6104}]}
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "price-scanner"
+version = "0.1.0"
+description = "Сканер цен по российским магазинам электроники: история в SQLite, статистика, аномалии"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+]
+
+[project.optional-dependencies]
+# Playwright нужен только витринам за JS-челленджем; после установки:
+#   playwright install chromium
+browser = ["playwright>=1.40"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+price-scanner = "pricescanner.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pricescanner*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

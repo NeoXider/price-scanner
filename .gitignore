@@ -1,0 +1,27 @@
+# база истории цен — данные, не код
+data/*.db
+data/*.db-journal
+data/pages/
+reports/
+
+# секреты
+.env
+*.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# служебные файлы сборки проекта
+run_opus*.log
+PROGRESS*.md
+TASK_*.md

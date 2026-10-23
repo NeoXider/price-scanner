@@ -1,0 +1,11 @@
+{
+  "_fixture": "Ответ GET https://www.mvideo.ru/bff/products/v2/search?query=ноутбук&limit=5&offset=0 от 2026-10-23. Огромный блок filters[] вырезан (он не участвует в разборе), body.total и body.products — как есть.",
+  "success": true,
+  "messages": [],
+  "body": {
+    "total": 30093,
+    "type": "plain",
+    "products": ["402234028", "401002749", "400679051", "402555134", "401561241"],
+    "filters": []
+  }
+}

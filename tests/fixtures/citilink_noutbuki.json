@@ -1,0 +1,87 @@
+{
+  "_fixture": "Фрагмент __NEXT_DATA__ Citilink, снят с живой витрины 2026-10-23 (https://www.citilink.ru/catalog/noutbuki/). Списки imagesList/propertiesList урезаны, labelsList/recommendations удалены; структура и значения price/stock/selfDeliveries сохранены как есть.",
+  "_fixture_synthetic": "ВНИМАНИЕ: у третьего товара stock.countInStores/maxCountInStock и непустой selfDeliveries.availableInFavoriteStores дописаны вручную. На живой витрине анонимная сессия ВСЕГДА отдавала stock={countInStores:'0',maxCountInStock:'0'} и availableInFavoriteStores=[] — список избранных магазинов появляется только у авторизованного пользователя, и его реальную форму ({id,name,address} здесь — предположение) проверить не удалось. Нужно только чтобы тест прошёл по ветке разбора филиала; на покрытие это не претендует.",
+  "props": {
+    "initialState": {
+      "subcategory": {
+        "productsFilter": {
+          "payload": {
+            "productsFilter": {
+              "products": [
+                {
+                  "accessMode": "PHYSICAL",
+                  "bonuses": {"club": "480", "sbp": 490},
+                  "brand": {"name": "CHUWI"},
+                  "category": {"id": "3", "name": "Ноутбуки"},
+                  "id": "2174077",
+                  "imagesList": [{"url": {"SHORT": "https://cdn.citilink.ru/MIkpUaiAuFYY0_F_y7482x0TzsnHt9wlptcgOsAkDD0/plain/product-images/f27ee1b8-1b35-4a02-a552-2881751e1108.jpg"}}],
+                  "isAvailable": true,
+                  "isCrossBorder": false,
+                  "multiplicity": 1,
+                  "name": "Ноутбук CHUWI Corebook X, 14\", IPS, AMD Ryzen 5 5500U 2.1ГГц, 6-ядерный, 16ГБ DDR4, 512ГБ SSD,  AMD Radeon Rx  Vega 7, Windows 11 Home,  серый",
+                  "opinionsCount": 150,
+                  "price": {"club": 47990, "clubPriceViewType": "PRICE_IN_RUB", "discount": 13, "old": 55990, "price": 48990},
+                  "propertiesList": [{"name": "Экран", "value": "14 \"; 2160х1440; IPS"}],
+                  "rating": 4.7,
+                  "reviewsCount": 0,
+                  "selfDeliveries": {"availabilityByDays": [], "availableInFavoriteStores": []},
+                  "shortName": "Ноутбук CHUWI Corebook X, 14\", IPS, AMD Ryzen 5 5500U, 6-ядерный, 16ГБ DDR4, 512ГБ SSD,  серый",
+                  "slug": "noutbuk-chuwi-corebook-x-ryzen-5-5500u-16gb-ssd512gb-vega-7-14-2k-w11h",
+                  "stock": {"countInStores": "0", "maxCountInStock": "0"},
+                  "yandexPay": {"withYandexSplit": false}
+                },
+                {
+                  "accessMode": "PHYSICAL",
+                  "bonuses": {"club": "1400", "sbp": 1400},
+                  "brand": {"name": "ACER"},
+                  "category": {"id": "3", "name": "Ноутбуки"},
+                  "id": "2136020",
+                  "imagesList": [{"url": {"SHORT": "https://cdn.citilink.ru/VKJ-eYDdW5U2YsORvNQp_7A56aEY9a2R4lvJ41k6PEU/plain/product-images/d61969c6-0ca2-4ec7-ab4f-64371dc53155.jpg"}}],
+                  "isAvailable": true,
+                  "isCrossBorder": false,
+                  "multiplicity": 1,
+                  "name": "Ноутбук игровой Acer Nitro V 17 AI ANV17-41-R9Q9, 17.3\", IPS, AMD Ryzen 7 260 3.8ГГц, 8-ядерный, 16ГБ DDR5, 1ТБ SSD,  NVIDIA GeForce  RTX 5060 для ноутбуков - 8 ГБ, без операционной системы,  черный [nh.qyvcd.007]",
+                  "opinionsCount": 9,
+                  "price": {"club": 0, "clubPriceViewType": "SKIP", "discount": 17, "old": 167990, "price": 139990},
+                  "propertiesList": [{"name": "Экран", "value": "17.3 \"; 2560х1440; IPS"}],
+                  "rating": 4.8,
+                  "reviewsCount": 0,
+                  "selfDeliveries": {"availabilityByDays": [], "availableInFavoriteStores": []},
+                  "shortName": "Ноутбук игровой Acer Nitro V 17 AI ANV17-41-R9Q9, 17.3\", IPS, AMD Ryzen 7 260, 8-ядерный, 16ГБ DDR5, 1ТБ SSD,  черный",
+                  "slug": "noutbuk-acer-nitro-v-17-ai-anv17-41-r9q9-ryzen-7-260-16gb-ssd1tb-rtx-5",
+                  "stock": {"countInStores": "0", "maxCountInStock": "0"},
+                  "yandexPay": {"withYandexSplit": false}
+                },
+                {
+                  "accessMode": "PHYSICAL",
+                  "bonuses": {"club": "1410", "sbp": 1420},
+                  "brand": {"name": "MSI"},
+                  "category": {"id": "3", "name": "Ноутбуки"},
+                  "id": "2162521",
+                  "imagesList": [{"url": {"SHORT": "https://cdn.citilink.ru/DK_DQyntL0OZSb4DXn3ddMDcNcVw4gfz5_5VE5xJxj0/plain/product-images/781dd2eb-9383-500f-bea1-abeff24d2194.jpg"}}],
+                  "isAvailable": true,
+                  "isCrossBorder": false,
+                  "multiplicity": 1,
+                  "name": "Ноутбук игровой MSI Cyborg A15 C1WF-077XRUY, 15.6\", IPS, AMD Ryzen 7 170 3.2ГГц, 8-ядерный, 16ГБ DDR5, 512ГБ SSD,  NVIDIA GeForce  RTX 5060 для ноутбуков - 8 ГБ, TGP 70Вт, FreeDOS,  серый [9s7-15tk21-077]",
+                  "opinionsCount": 0,
+                  "price": {"club": 140990, "clubPriceViewType": "PRICE_IN_RUB", "discount": 11, "old": 158990, "price": 141990},
+                  "propertiesList": [{"name": "Экран", "value": "15.6 \"; 1920х1080; IPS"}],
+                  "rating": 0,
+                  "reviewsCount": 0,
+                  "selfDeliveries": {"availabilityByDays": [], "availableInFavoriteStores": [{"id": "S201", "name": "Ситилинк-мини Екатеринбург", "address": "ул. Малышева, 71"}]},
+                  "shortName": "Ноутбук игровой MSI Cyborg A15 C1WF-077XRUY, 15.6\", IPS, AMD Ryzen 7 170, 8-ядерный, 16ГБ DDR5, 512ГБ SSD,  серый",
+                  "slug": "noutbuk-msi-cyborg-a15-c1wf-ryzen-7-170-16gb-ssd1tb-rtx-5060-8gb-15-6",
+                  "stock": {"countInStores": "4", "maxCountInStock": "12"},
+                  "yandexPay": {"withYandexSplit": false}
+                }
+              ],
+              "pagination": {"page": 1, "perPage": 8},
+              "sortings": [{"id": "1", "name": "по популярности", "slug": "popular", "directions": []}],
+              "isTerminal": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

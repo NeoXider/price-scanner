@@ -1,0 +1,14 @@
+{
+  "_fixture": "Ответ GET https://www.mvideo.ru/bff/product-details?productId=402234028 от 2026-10-23. Поля name/nameTranslit/brandName — как есть; длинные блоки images[]/specs вырезаны, в разборе они не участвуют.",
+  "success": true,
+  "messages": [],
+  "body": {
+    "productId": "402234028",
+    "name": "Ноутбук ASUS UM3406GA-QD133 14\" WUXGA OLED 400N/AMD Ryzen 5 AI 430/16GB/512GB SSD/UMA/DOS/Черный(90NB17R1-M006L0)",
+    "nameTranslit": "noutbuk-asus-um3406ga-qd133-14-wuxga-oled-400n-amd-ryzen-5-ai-430-16gb-512gb-ssd-uma-dos-chernyi90nb17r1-m006l0",
+    "brandName": "ASUS",
+    "materialSource": "ERP",
+    "productType": "ZCON",
+    "images": []
+  }
+}
